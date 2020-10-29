@@ -65,8 +65,10 @@ font-family: 'Quattrocento Sans', sans-serif;*/
 
 /*MY CODE STARTS HERE*/
 
+/* HEADER SECTION*/
 html{
     font-size: 10px;
+    font-family: 'Quattrocento Sans', sans-serif;
 }
 
 header,footer{
@@ -74,16 +76,15 @@ header,footer{
  padding: 2%;
 }
 h1{
-    width:25%;
+    width:100%;
     font-family:'Quattrocento Sans', sans-serif;
     color: #ffffff;
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 nav{
     display:flex;
-    flex-wrap:wrap;
-    width:25%;
+    width:28%;
     justify-content:space-between;
 }
 a{
@@ -93,3 +94,55 @@ a{
     color: #ffffff;
     font-size:2rem;
 }
+
+/* TOP ABOUT ME SECTION WITH PHOTO*/
+.left{
+    width:40%
+}
+.left img{
+    width: 90%;
+}
+.right{
+    display:flex;
+    flex-direction: column;
+    background: #ffb95eaf;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    }
+.top-of-page{
+    display:flex;
+    background:#FFFFFF;
+    padding: 1%;
+}
+h2{
+    font-family:'Quattrocento Sans', sans-serif;
+    color: #ffffff;
+    font-size:5rem;    
+}
+.right button{
+    margin: 1%;
+    background: #2ec4b6;   
+    border: 1px solid #ffffff;
+    color:#ffffff;
+    padding:1% 2%;
+    font-size: 1.8rem;
+}
+.right p{
+    margin: 1%;
+    color:#ffffff;
+    font-size: 2rem;
+}
+
+.gallery{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.gallery img{
+    width: 25vh;
+    height:25vh;
+    border:1px solid red;
+}
+   
