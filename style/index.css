@@ -138,11 +138,17 @@ h2{
     width:100%;
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-evenly;
+    justify-content:center;
+    padding: 2% 0 0 0;
+}
+.gallery div{
+    width:25%;
 }
 .gallery img{
-    width: 25vh;
-    height:25vh;
-    border:1px solid red;
+    width: 96%;
 }
-   
+   footer{
+       display:flex;
+       flex-direction:column;
+       justify-content:center;
+   }
