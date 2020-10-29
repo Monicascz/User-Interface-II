@@ -48,5 +48,48 @@ table {
 	border-spacing: 0;
 }
 
+/*COLOR OPTIONS: 
+Dark Orange #ff9f1c
+Light Orange #ffbf69
+White #ffffff
+Tan ##FFEFD5
+Light Blue #cbf3f0
+Teal Blue #2ec4b6
+Dark Green #0b6e4f
+Light Green #63d471
+*/
+
+/*FONT OPTIONS:
+font-family: 'Nunito', sans-serif;
+font-family: 'Quattrocento Sans', sans-serif;*/
+
 /*MY CODE STARTS HERE*/
 
+html{
+    font-size: 10px;
+}
+
+header,footer{
+ background:#2ec4b6;
+ padding: 2%;
+}
+h1{
+    width:25%;
+    font-family:'Quattrocento Sans', sans-serif;
+    color: #ffffff;
+    font-size: 5rem;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    width:25%;
+    justify-content:space-between;
+}
+a{
+    text-decoration:none;
+    font-family:'Quattrocento Sans', sans-serif;
+    padding:1% 2%;
+    color: #ffffff;
+    font-size:2rem;
+}
