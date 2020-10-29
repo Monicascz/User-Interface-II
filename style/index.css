@@ -141,10 +141,9 @@ h2{
 /* GALLERY SECTION*/
 
 .gallery{
-    width:100%;
+    /* width:100%; */
     display:flex;
     flex-wrap:wrap;
-    justify-content:center;
     padding: 2% 0 0 0;
 }
 .gallery div{
@@ -152,13 +151,14 @@ h2{
     display:flex;
     flex-flow: column;
     align-items:center;
+    justify-content:space-evenly;
+
 }
 .gallery img{
-    width: 25%;
-    height:25%;
+    width: 96%;
 }
 .gallery p{
-    width:25%;
+    font-size:1.3rem;
 }
 
 .contact{
