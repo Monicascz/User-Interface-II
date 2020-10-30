@@ -86,17 +86,19 @@ h1{
 
 nav{
     display:flex;
-    width:28%;
+    width:35%;
     justify-content:space-between;
 }
 a{
     text-decoration:none;
     font-family:'Quattrocento Sans', sans-serif;
-    padding:1% 2%;
+    padding:1% 3%;
     color: #ffffff;
     font-size:2rem;
 }
-
+a:hover{
+    text-decoration:underline;
+}
 /* TOP ABOUT ME SECTION WITH PHOTO*/
 .left{
     width:40%
@@ -180,4 +182,9 @@ h2{
     color:#ffffff;
     padding:1% 2%;
     font-size: 1.8rem;
+}
+
+button:hover{
+    background:white;
+    color:#2ec4b6;
 }
