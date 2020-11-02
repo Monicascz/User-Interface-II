@@ -194,9 +194,100 @@ button:hover{
 
 @media(max-width:800px){
 /* GALLERY SECTION*/
-.gallery div{
+
+
+
+/***************  DEVICE WIDTH 400px *****************/
+
+@media(max-width:400px){
+    
+/* HEADER SECTION*/    
+h1{
+    font-size: 4rem;
+}
+nav a{
+    font-size:2rem;
+}
+    
+/* TOP ABOUT ME SECTION WITH PHOTO*/
+.left{
+    width:49%
+}
+.left img{
+    width: 100%;
+}
+.right{
+    width:49%;
+}
+.top-of-page{
+    display:flex;
+    justify-content: space-between;
+}
+h2{
+    font-size:3rem;   
+}
+.right button{
+    font-size: 1.5rem;
+    margin:3.5% 0;
+}
+.right p{
+    margin: 1%;
+    color:#ffffff;
+    font-size: 2rem;
+}
+    /* GALLERY SECTION*/
+    
+    .gallery{
+        /* width:100%; */
+        display:flex;
+        flex-wrap:wrap;
+        padding: 2% 0 0 0;
+    }
+    .gallery div{
+        width: 25%;
+        display:flex;
+        flex-flow: column;
+        align-items:center;
+        justify-content:space-evenly;
+    
+    }
+    .gallery img{
+        width: 96%;
+    }
+    .gallery p{
+        font-size:1.3rem;
+    }
+    .contact{
+           display:flex;
+           flex-direction:column;
+           align-items: center;
+           margin:4% 0;
+       }
+    
+       h3{
+           color:white;
+           font-size:1.8rem;
+       }
+    .contact button{
+        margin: 1%;
+        background: #2ec4b6;   
+        border: 1px solid #ffffff;
+        color:#ffffff;
+        padding:1% 2%;
+        font-size: 1.8rem;
+    }
+    .contact a{
+        width:15%;
+        margin-top: 1%;
+    }
+    button:hover{
+        background:white;
+        color:#2ec4b6;
+    }
+
+
+    .gallery div{
     width:50%;
-    /* transform: rotate(90deg); */
 }
 .gallery img{
     transform: rotate(90deg);
@@ -225,3 +316,4 @@ button:hover{
 .image4{
     order:8;
 }
+/* closing bracket for media 400px. */
