@@ -189,3 +189,39 @@ button:hover{
     background:white;
     color:#2ec4b6;
 }
+
+/****************  DEVICE WIDTH 800PX ***************/
+
+@media(max-width:800px){
+/* GALLERY SECTION*/
+.gallery div{
+    width:50%;
+    /* transform: rotate(90deg); */
+}
+.gallery img{
+    transform: rotate(90deg);
+}
+.image5{
+    order:1;
+}
+.image1{
+    order:2;
+}
+.image6{
+    order:3;
+}
+.image2{
+    order:4;
+}
+.image7{
+    order:5;
+}
+.image3{
+    order:6;
+}
+.image8{
+    order:7;
+}
+.image4{
+    order:8;
+}
